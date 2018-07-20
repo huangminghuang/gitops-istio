@@ -14,11 +14,11 @@ spec:
   - podinfo-gateway
   http:
   - route:
-    - destination:
-        host: podinfo
-        subset: canary
-      weight: 60
+    # - destination:
+    #     host: podinfo
+    #     subset: canary
+    #   weight: 60
     - destination:
         host: podinfo
         subset: ga
-      weight: 40
+      weight: 100
