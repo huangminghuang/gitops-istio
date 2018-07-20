@@ -43,6 +43,6 @@ spec:
     servicegraph:
       enabled: false
     tracing:
-      enabled: false
+      enabled: true
       jaeger:
-        enabled: false
+        enabled: true
